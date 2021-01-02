@@ -3,7 +3,10 @@ A collection of popular addons created by me for the game, Elder Scrolls Online
 
 Website: https://www.esoui.com/downloads/author-52033.html
 
-| [Crystal Fragments Proc](#crystal-fragments-proc) | [Ward Shield Reminder](#ward-shield-reminder) | [Installation](#installation) | [Special Thanks](#special-thanks)  
+* [Crystal Fragments Proc](#crystal-fragments-proc)
+* [Ward Shield Reminder](#ward-shield-reminder)
+* [Installation](#installation)
+* [Special Thanks](#special-thanks)  
 
 ## Crystal Fragments Proc
 
@@ -13,11 +16,11 @@ Website: https://www.esoui.com/downloads/info2441-CrystalFragmentsProc.html#info
 
 **This addon detects when the ability, Crystal Fragments, triggers the effect of granting the next use of 'Crystal Fragments' (Sorcerer's skill) as an instant cast ability with 50% cost of magicka and 20% more damage. It then alerts the user by displaying a big icon, along with a timer, on the screen. Position of the icon can be adjusted and its new location will be automatically saved for future play sessions. The icon disappears as soon as it is casted or if buff duration is over.**
 
-Inspired by Reager's now-discontinued addon of the same name: https://www.esoui.com/downloads/info443-CrystalFragmentsProc.html
+*Inspired by Reager's now-discontinued addon of the same name*: https://www.esoui.com/downloads/info443-CrystalFragmentsProc.html
 
 To adjust the position of the icon:
-/cfp show - Displays location of the icon. Simply use your mouse to drag it to your desired position.
-/cfp hide - Hides the indicator after icon is at your desired position.
+- /cfp show - Displays location of the icon. Simply use your mouse to drag it to your desired position.
+- /cfp hide - Hides the indicator after icon is at your desired position.
 
 To adjust the size of the icon and timer text (Requires LibAddOnMenu!):
 Access Crystal Fragments Proc's addon settings -
@@ -61,21 +64,21 @@ Website: https://www.esoui.com/downloads/info2456-WardShieldReminder.html
 
 **Position of the icon can be adjusted and its new location will be automatically saved for future play sessions. The percentage threshold and base threshold can also be adjusted and its value will be automatically saved. The icon disappears as soon as the player is out of combat or if it the user has applied a new ward shield.**
 
-Inspired and made possible by @ratparol101's addon: https://www.esoui.com/downloads/info1676-WardHelper.html and Garkin's addon: https://www.esoui.com/downloads/info799-ShieldInfo.html
+*Inspired and made possible by @ratparol101's addon*: https://www.esoui.com/downloads/info1676-WardHelper.html *and Garkin's addon*: https://www.esoui.com/downloads/info799-ShieldInfo.html
 
 For default values, percentage threshold is the value of shield strength * 0.45, meaning at 45% of the shield strength, the WARD LOW! alert will pop out.
 
 Base threshold is 2500, meaning when shield strength is at 2500, the WARD LOW! alert will pop out.
 
-To adjust the position and of the icon and the percentage threshold:
-/wrm show - Displays location of the warning icon. Simply use your mouse to drag it to your desired position.
-/wrm hide - Hides the indicator after warning icon is at your desired position.
-/wrm value - Shows current threshold percentage.
-/wrm '0.05-0.99' - To adjust the threshold percentage, simply type in a value after /wrm. It has to be between 0.05 or 0.99. Any other number will prompt a debug message telling the player that an invalid value has been inputted. For example, if you want to set the threshold to 0.35, type in /wrm 0.35. Default is at 0.45. (Recommended Values: 0.35-0.65)
+To adjust the position and of the icon and the percentage threshold:  
+- /wrm show - Displays location of the warning icon. Simply use your mouse to drag it to your desired position.  
+- /wrm hide - Hides the indicator after warning icon is at your desired position.  
+- /wrm value - Shows current threshold percentage.  
+- /wrm '0.05-0.99' - To adjust the threshold percentage, simply type in a value after /wrm. It has to be between 0.05 or 0.99. Any other number will prompt a debug message telling the player that an invalid value has been inputted. For example, if you want to set the threshold to 0.35, type in /wrm 0.35. Default is at 0.45. (Recommended Values: 0.35-0.65)
 
 To adjust the base threshold:
-/wrmb value - Shows current base threshold.
-/wrmb '500-10000' - To adjust the base threshold percentage, simply type in a value after /wrmb. It has to be between 500 or 10000. Any other number will prompt a debug message telling the player that an invalid value has been inputted. For example, if you want to set the threshold to 1000, type in /wrmb 1000. Default is at 2500. (Recommended Values: 1000-3500)
+- /wrmb value - Shows current base threshold.  
+- /wrmb '500-10000' - To adjust the base threshold percentage, simply type in a value after /wrmb. It has to be between 500 or 10000. Any other number will prompt a debug message telling the player that an invalid value has been inputted. For example, if you want to set the threshold to 1000, type in /wrmb 1000. Default is at 2500. (Recommended Values: 1000-3500)
 
 Limitations:
 - Percentage Threshold is changed every time a shield is destroyed or deactivated. This isn't normally a problem, but it could become one if a small shield was the only shield remaining. I had different iteration of this addon that doesn't do this, but it introduced new problems (mostly logical). For this iteration, the current fail-safe fix is a base threshold that the user can adjust. It kind of defeats the purpose of the percentage feature, so I am not sure if this is the right idea of going about it. Let me know if you have an idea of how you think this threshold should work.
