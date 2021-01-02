@@ -3,22 +3,17 @@ A collection of popular addons created by me for the game, Elder Scrolls Online
 
 Website: https://www.esoui.com/downloads/author-52033.html
 
-
-* [Crystal Fragments Proc](#crystal-fragments-proc)
-* [Ward Shield Reminder](#ward-shield-reminder)
-* [Installation](#installation)
+| [Crystal Fragments Proc](#crystal-fragments-proc) | [Ward Shield Reminder](#ward-shield-reminder) | [Installation](#installation) | [Special Thanks](#special-thanks)  
 
 ## Crystal Fragments Proc
 
 Website: https://www.esoui.com/downloads/info2441-CrystalFragmentsProc.html#info
 
-**This addon detects when the ability, Crystal Fragments, triggers the effect of granting the next use of 'Crystal Fragments' (Sorcerer's skill) as an instant cast ability with 50% cost of magicka and 20% more damage. It then alerts the user by displaying a big icon, along with a timer, on the screen.**
-
-Inspired by Reager's now-discontinued addon of the same name: https://www.esoui.com/downloads/info443-CrystalFragmentsProc.html
-
 **Current Version**: v1.5
 
-By default, the addon will display a big alert icon, along with a timer, at the bottom center of the screen when Crystal Fragment Proc is triggered. Position of the icon can be adjusted and its new location will be automatically saved for future play sessions. The icon disappears as soon as it is casted or if buff duration is over.
+**This addon detects when the ability, Crystal Fragments, triggers the effect of granting the next use of 'Crystal Fragments' (Sorcerer's skill) as an instant cast ability with 50% cost of magicka and 20% more damage. It then alerts the user by displaying a big icon, along with a timer, on the screen. Position of the icon can be adjusted and its new location will be automatically saved for future play sessions. The icon disappears as soon as it is casted or if buff duration is over.**
+
+Inspired by Reager's now-discontinued addon of the same name: https://www.esoui.com/downloads/info443-CrystalFragmentsProc.html
 
 To adjust the position of the icon:
 /cfp show - Displays location of the icon. Simply use your mouse to drag it to your desired position.
@@ -58,13 +53,15 @@ v1.1 (August 16, 2019):
 
 Website: https://www.esoui.com/downloads/info2456-WardShieldReminder.html
 
-**This addon detects when an activated damage shield is lower than an adjustable percentage threshold (Default is at 0.45 of shield strength) or an adjustable base threshold (default is at 2500), or if the shield has been deactivated or destroyed. It then alerts the user by displaying a warning on the screen.**
-
-Inspired and made possible by @ratparol101's addon: https://www.esoui.com/downloads/info1676-WardHelper.html and Garkin's addon: https://www.esoui.com/downloads/info799-ShieldInfo.html
-
 **Current version**: v1.1
 
-**By default, the addon will display an alert warning (WARD LOW!) at the center of the screen when the user's damage shield is lower than a percentage threshold or a base threshold, or if it has been destroyed or deactivated (WARD DOWN!). Position of the icon can be adjusted and its new location will be automatically saved for future play sessions. The percentage threshold and base threshold can also be adjusted and its value will be automatically saved. The icon disappears as soon as the player is out of combat or if it the user has applied a new ward shield.**
+**This addon detects when an activated damage shield is lower than an adjustable percentage threshold (Default is at 0.45 of shield strength) or an adjustable base threshold (default is at 2500), or if the shield has been deactivated or destroyed.** 
+
+**It alerts the user by displaying a (WARD LOW!) warning on the screen when the user's damage shield is lower than a percentage threshold or a base threshold, or a (WARD DOWN!) warning if the damage shield has been destroyed or deactivated.** 
+
+**Position of the icon can be adjusted and its new location will be automatically saved for future play sessions. The percentage threshold and base threshold can also be adjusted and its value will be automatically saved. The icon disappears as soon as the player is out of combat or if it the user has applied a new ward shield.**
+
+Inspired and made possible by @ratparol101's addon: https://www.esoui.com/downloads/info1676-WardHelper.html and Garkin's addon: https://www.esoui.com/downloads/info799-ShieldInfo.html
 
 For default values, percentage threshold is the value of shield strength * 0.45, meaning at 45% of the shield strength, the WARD LOW! alert will pop out.
 
@@ -85,8 +82,6 @@ Limitations:
 
 - Multiple Shields might bug out the addon. So far, I have only been able to test it when I have Annulment and Hardened Ward activated (the only shield actives for Sorc). I am not sure what might happen if multiple shields from other players are applied to the userr as it is difficult to do complete testing by myself. The addon should still work fine, but let me know if a bug occurs in your playtime and how it happened, so I can try to fix it.
 
-Note: The addon was designed to help the player manage their damage shield resource, so that they don't deplete their magicka when it is not necessary. I personally made the add-on for this purpose. I hope it might help you out as well.
-
 ### Change Log
 v1.1 (September 6, 2019):
 - Removed class restriction; the addon can now be used with any class
@@ -97,7 +92,6 @@ You can install addons by using one of the following ways:
 ```C:\Users\< username >\Documents\Elder Scrolls Online\live\AddOns.```  
 Create one if it doesn't already exist.
 2. Or download Minion. Instruction is available on their website: https://minion.mmoui.com/ 
-
 
 # Special Thanks
 ESO UI Wiki and Forums
